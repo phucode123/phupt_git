@@ -17,8 +17,8 @@ git push: đẩy code lên branch
 git rebase: hợp nhất các nhánh giống merge nhưng khác là các commit của nhánh phụ sẽ thêm vào sau commit cuối cùng làm cho lịch sử commit gọn gàng.
 git merge: hợp nhất cấc nhánh nếu có xung đột thì fix
 git stash: lưu trữ các stash thay đổi trong khu vực làm việc, dùng khi chưa muốn commit vì chưa hoàn thiện
-git commit --amend:
-git rebase -i: 
+git commit --amend: nối thay đổi hiện tại vào commit gần nhất
+git rebase -i:  
 
 Modified: Sau khi bạn thay đổi tệp, nó sẽ ở trạng thái Modified.
 Staged: Khi bạn sử dụng git add <filename>, tệp sẽ chuyển sang trạng thái Staged.
