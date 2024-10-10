@@ -47,6 +47,32 @@ class Monkey implements Man, Animal{
     }
 }
 
-const mon1 = new Monkey
-mon1.talk();
+let uuble:any= ['ca con', 4, 'vit con']
+console.log(uuble);
 
+// const mon1 = new Monkey
+// mon1.talk();
+
+interface Mans {
+    talk():void
+}
+
+class Women implements Mans{
+talk(): void {
+    const temp:number = 1+2;
+    console.log(temp);
+    
+}
+}
+class Men implements Mans{
+talk(): void {
+    const temp:number = 3-2;
+    console.log(temp);
+}
+}
+
+let a = new Men();
+let b = new Women();
+
+a.talk()
+b.talk()

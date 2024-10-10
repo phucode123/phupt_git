@@ -39,5 +39,27 @@ var Monkey = /** @class */ (function () {
     };
     return Monkey;
 }());
-var mon1 = new Monkey;
-mon1.talk();
+var uuble = ['ca con', 4, 'vit con'];
+console.log(uuble);
+var Women = /** @class */ (function () {
+    function Women() {
+    }
+    Women.prototype.talk = function () {
+        var temp = 1 + 2;
+        console.log(temp);
+    };
+    return Women;
+}());
+var Men = /** @class */ (function () {
+    function Men() {
+    }
+    Men.prototype.talk = function () {
+        var temp = 3 - 2;
+        console.log(temp);
+    };
+    return Men;
+}());
+var a = new Men();
+var b = new Women();
+a.talk();
+b.talk();
